@@ -1,2 +1,2 @@
-# ciclo-formativo-pretalab-aula-pr-tica-03
+# ciclo-formativo-pretalab-aula-pratica-03
 Exercício prático na aula 03 do Ciclo Formativo Básico em Tecnologia da Pretalab.
