@@ -1,0 +1,132 @@
+<!DOCTYPE html5>
+
+<html lang="pt-br">
+    <head>
+        <title> Exercicio prático - aula 3 </title>
+        <meta charset="utf-8">
+        <meta name="drescription" content="Listas e Tabelas">
+    </head>
+
+    <body> 
+        <h1> Exercicio de Tabelas em HTML </h1>
+        <!-- A tag utilizada para criar tabelas HTML é a tag <table></table> -->
+
+        <h2> Tags de Estrutura de Tabela </h2>
+        
+        <table border="2">
+            <!-- cabecalho da tabela -->
+            <tr> <!-- tr são as linhas -->
+                <th> titulo 1</th> <!-- th são os títulos -->
+                <th> titulo 2</th>
+                <th> titulo 3</th>
+            </tr>
+
+            <tr>
+                <td>Body1 coluna1</td>
+                <td>Body2 coluna2</td>
+                <td>Body2 coluna3</td>
+            </tr> 
+
+            <tr>
+                <td>Body1 coluna1</td>
+                <td>Body2 coluna2</td>
+                <td>Body3 coluna3</td>
+            </tr> 
+
+            <tr>
+                <td>Body1 coluna1</td>
+                <td>Body2 coluna2</td>
+                <td>Body3 coluna3</td>
+            </tr> 
+    </table>
+
+
+        <h2> Criando tabela imaginária </h2>
+    
+        <table border="2">
+            <tr> 
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        
+            <tr>
+                <td>Maria</td>
+                <td>26</td>
+                <td>Estudante</td>
+            </tr> 
+
+            <tr>
+                <td>Ted</td>
+                <td>22</td>
+                <td>Estudante</td>
+            </tr> 
+
+            <tr>
+                <td>Ralf</td>
+                <td>28</td>
+                <td>Designer</td>
+            </tr> 
+        </tbody>
+    </table>
+
+    <h2> Criando células vazias </h2>
+    
+        <table border="2">
+            <tr> 
+                <th></th> <!-- Não há nada entre a tag de titulo, por isso ficará em branco -->
+                <th>Valor</th>
+            </tr>
+        
+            <tr>
+                <td>Item 1</td>
+                <td>R$10</td>
+            </tr> 
+
+            <tr>
+                <td>Item 2</td>
+                <td>R$20</td>
+            </tr> 
+    </table>
+
+    <h2> Mesclando células (colspan) </h2>
+    
+        <table border="2">
+            <tr> 
+                <th>Nome</th> 
+                <th colspan="2">Telefones</th>
+            </tr>
+            
+            <tr>
+                <td>Ted</td>
+                <td>0000-0000
+                    <td> 9999-9999 </td>
+                </td>
+            </tr> 
+
+            <tr>
+                <td>Jacy</td>
+                <td>8888-8888
+                    <td> 1111-1111 </td>
+                </td>
+            </tr>
+    </table>
+
+    <h2> Mesclando células (rowspan) </h2>
+        <table border="2">
+                <tr> 
+                    <th> Primeiro Nome:</th> 
+                    <th>Ted</th>
+                </tr>
+
+                <tr>
+                    <th rowspan="2">Telefone:</th>
+                    <td>888-8888</td>
+                </tr>
+
+                <tr> 
+                    <td>9999-9999</td>
+                </tr>            
+    </table>
+    </body>
+    </html>
